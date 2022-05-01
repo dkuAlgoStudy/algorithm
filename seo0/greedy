@@ -1,0 +1,11 @@
+n= int(input())
+coin= [500,100,50,10]
+
+coin.sort(reverse=True)
+answer=0
+
+for i in coin:
+    while n>=i
+        n-=i
+        answer+=1
+print(answer)
